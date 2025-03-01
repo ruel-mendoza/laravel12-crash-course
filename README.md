@@ -1,2 +1,2 @@
 # laravel-course
-thi is leaning crashcourse on laravel
+thi is leaning crashcourse on laravel 12

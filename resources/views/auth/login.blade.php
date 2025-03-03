@@ -42,6 +42,12 @@
             <x-primary-button class="ms-3">
                 {{ __('Log in') }}
             </x-primary-button>
+
+            @if (Route::has('register'))
+            <x-secondary-button onclick="location.href='{{ route('register') }}'" class="ms-3">
+                {{ __('Sign up') }}
+            </x-secondary-button> 
+            @endif         
         </div>
     </form>
 </x-guest-layout>
